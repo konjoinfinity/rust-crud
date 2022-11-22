@@ -2,8 +2,7 @@
 
 ![Screenshot](screenshot.gif)
 
-Basic CRUD (Create, Read, Update, Delete) [Rust] application with [Yew Framework] that uses WebAssembly :heart_eyes:.
-I'm still learning rust, so the app has some minor issues, but it general it works to show you an approach of Yew and Rust.
+Basic CRUD (Create, Read, Update, Delete) [Rust] application with [Yew Framework] that uses WebAssembly.
 
 [Rust]: https://www.rust-lang.org
 [Yew Framework]: https://github.com/yewstack/yew
