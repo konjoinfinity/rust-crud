@@ -3,6 +3,9 @@
 use yew::{html, Component, ComponentLink, Html, ShouldRender};
 use yew::format::Json;
 use yew::services::storage::{Area, StorageService};
+use yew::services::{
+  ConsoleService
+};
 
 mod item;
 mod modal;
@@ -100,7 +103,7 @@ impl Component for Model {
       Msg::Remove(idx) => {
         self.state.items.remove(idx);
         self.update(Msg::Store);
-
+        ConsoleService::info("Deleted");
         true
       }
 
